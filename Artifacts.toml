@@ -1,0 +1,83 @@
+[[HelFEM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f368a789bf71d0d22bbcbb292582aeacbabaee49"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "2cd68e090b7dc07f6f190256eb8c961a3112a043cc2c1bd895a26ea0c9eab727"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.1+0/HelFEM.v0.0.1.aarch64-linux-gnu-libgfortran4-cxx11.tar.gz"
+[[HelFEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b018a8d14e3e5dd664de4a6dbf5f8c3971c47d6f"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "097ec3a2ca9241c3dd94321213faeb0ff8e407951a6641cb78362a029ea470da"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.1+0/HelFEM.v0.0.1.armv7l-linux-gnueabihf-libgfortran4-cxx11.tar.gz"
+[[HelFEM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "199fa8d160e5d91de3aa03aacf2b9233c09cf04a"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "247cdad1863f0e1bcdc4e5eb36784d3f19b6e90924e06f04f8ae6fde171c7a0d"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.1+0/HelFEM.v0.0.1.i686-linux-gnu-libgfortran4-cxx11.tar.gz"
+[[HelFEM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a5935634108df9713454f40b39330ac0d6112251"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[HelFEM.download]]
+    sha256 = "2e2efb4d97ac7435c7e7ea3a514bfeb54940cd00d5a786dbd9beec50b1b14e67"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.1+0/HelFEM.v0.0.1.i686-w64-mingw32-libgfortran4-cxx11.tar.gz"
+[[HelFEM]]
+arch = "x86_64"
+git-tree-sha1 = "7f48f5822ca2be8ae5ab9cee98a3d9c33ee8bd63"
+libgfortran_version = "4.0.0"
+os = "macos"
+
+    [[HelFEM.download]]
+    sha256 = "cca4030931a43bef0821bb523f711b2672091d82306d51406ccce8d9f8e917d4"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.1+0/HelFEM.v0.0.1.x86_64-apple-darwin-libgfortran4.tar.gz"
+[[HelFEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "56a7fd324f446b2722b9e6e3d46a27cb915d05b8"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "c4c7b2e19206aa21440fb27e41527be689aaee8250374e96c3f549db6d87371f"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.1+0/HelFEM.v0.0.1.x86_64-linux-gnu-libgfortran4-cxx11.tar.gz"
+[[HelFEM]]
+arch = "x86_64"
+git-tree-sha1 = "67aeb3a87c73375c6895180f369471686176776e"
+libgfortran_version = "4.0.0"
+os = "freebsd"
+
+    [[HelFEM.download]]
+    sha256 = "5cbe1a9b0997a98eccf74e16029509dd9c743fa67cc531a80a1136fbff8124eb"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.1+0/HelFEM.v0.0.1.x86_64-unknown-freebsd-libgfortran4.tar.gz"
+[[HelFEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a2abf37da47998121c7b3946e0710b4ae3579276"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[HelFEM.download]]
+    sha256 = "69f7e0afb6ba1d954b4123ecb2219c4a5a767fa5e7dcad16a3c698eb5df97ba2"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.1+0/HelFEM.v0.0.1.x86_64-w64-mingw32-libgfortran4-cxx11.tar.gz"
