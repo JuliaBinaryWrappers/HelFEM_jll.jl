@@ -1,6 +1,6 @@
 name = "HelFEM_jll"
 uuid = "584ea77b-75d0-51ad-9ad6-7fb559b95557"
-version = "0.0.1+1"
+version = "0.0.2+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
