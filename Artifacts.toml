@@ -1,75 +1,216 @@
 [[HelFEM]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "c3fab0e91a65ce2fc513bc7f74ae1f3b5e08deef"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e4ff9fe2c5c940a85cf3fd646237a1d6b7aec68d"
 libc = "glibc"
 os = "linux"
 
     [[HelFEM.download]]
-    sha256 = "36e2f3438781b480d55e8c355acd91fb826efb1b2dbef62f1147732a893895d0"
-    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.3+0/HelFEM.v0.0.3.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "48f61a3de84529ef17e1aa5f113bd57816e2202b39924f54bb2a4d21c986835a"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.aarch64-linux-gnu-cxx03.tar.gz"
+[[HelFEM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b13a4004d5b7bd5b2a89201e868e9382b5356551"
+libc = "glibc"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "b00a45def11004eff29b1abd5a746f79834483176e6376e9384fd31b92d5dacc"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.aarch64-linux-gnu-cxx11.tar.gz"
+[[HelFEM]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "270492e7b0ab48008c3c6747b288b4e47fcde242"
+libc = "musl"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "297a6fb9b923510b68a72abd00f6ccd6dba61510eac6d8b9c67be99e28ca1a19"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.aarch64-linux-musl-cxx03.tar.gz"
+[[HelFEM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "da1b5ee009cd89e3a6d16134b585241931cd7cea"
+libc = "musl"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "6c0071ea62fcef323176c42ba0cc94f6a6278163de20fb648018b7cd12d640ee"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.aarch64-linux-musl-cxx11.tar.gz"
+[[HelFEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ecce8e772e664f6c37d43b1ac0cb0064e86686c5"
+libc = "glibc"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "76b0d85715f626f25d37696cc1483c53fc074de2439e35634a55dff7b6ab453a"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[HelFEM]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "6e3335dd8e2e8bc886849166ecdbadc455768df3"
+git-tree-sha1 = "a76d9237e8088b3231fc73a1c2e5d59a39a48260"
 libc = "glibc"
 os = "linux"
 
     [[HelFEM.download]]
-    sha256 = "b5304c55fb1dfe9dff6bec53a6ce350b404c0eae37418585ef3e7cc580e734a6"
-    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.3+0/HelFEM.v0.0.3.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "2ccd9096197ff5652329d2a3778fc564b57a601d583da030b6be4c2f4ffa9806"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[HelFEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "dedaa3890f4c5583476d9d7142e4bd61977a2325"
+libc = "musl"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "fe0d2aa0d491e1fc464fc613bc88850ec2a07d3d93a709e0703342f1b5f28937"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[HelFEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f20836b50ba7d9f2367fb8daed51ccc97a361092"
+libc = "musl"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "205aba6436346af9626ab8d10a8e7aea9b3c1d813ba935bcb8050003c829cf0f"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[HelFEM]]
 arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "e0ac4e76706c1e526bcb57ab46d2d6239af99850"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "858adc7a72502513ddec36fc9948c030aaa5ab4d"
 libc = "glibc"
 os = "linux"
 
     [[HelFEM.download]]
-    sha256 = "0535c5d6882d1ff6ab25a4908f09406f8ff73dbc6eaeae88c989416000d4249e"
-    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.3+0/HelFEM.v0.0.3.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "aa4b95f5ec3704bbc633d57c07662e98db2c0b61986d98b25da1e24d026d8923"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.i686-linux-gnu-cxx03.tar.gz"
 [[HelFEM]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1e49a1582e45f9cd2eb8dafb2ba1daecc463083a"
+git-tree-sha1 = "079f9a7430540340b273df8f9fa53812fad32258"
+libc = "glibc"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "740cd7290c468ac34e51a1cf86a819048686ea7eeb9dbacf77bc2fa42942be6e"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.i686-linux-gnu-cxx11.tar.gz"
+[[HelFEM]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "3edb94b63a5c50e305ddd20e0d5b1f6bd6fb84d0"
 os = "windows"
 
     [[HelFEM.download]]
-    sha256 = "70ee9dbd2d3b3810e12b26025585fc87a5f827676a3235618e0d03b537ba8573"
-    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.3+0/HelFEM.v0.0.3.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "5ea52583c993535b642cea7416d54ab61ef6e2ab070a06e843843a9134224b69"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.i686-w64-mingw32-cxx03.tar.gz"
+[[HelFEM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2dd1209e41713f82a1b8fb736ffd76a78898938f"
+os = "windows"
+
+    [[HelFEM.download]]
+    sha256 = "3991ae52678023a341f27dc20c5273d951a25b718b6f7cb001f1efb4ab45474c"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.i686-w64-mingw32-cxx11.tar.gz"
+[[HelFEM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f6443263411affdaa986022e2daafd47181f0c91"
+libc = "glibc"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "356a79d799160f0dcd74b7d5961e534a380ef6a883f84002db5f8e01f71bc20e"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[HelFEM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "19062a60770e35f27bb310753748e17860372042"
+libc = "glibc"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "c116fd872fa8f0749650f799e7a68d3acab3b067cb09d8db0ec31be2615d1429"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[HelFEM]]
 arch = "x86_64"
-git-tree-sha1 = "6197f68d1fe90289859d0d06d508d238feca738e"
+git-tree-sha1 = "2a2a0b1c45bbb147e39bc6413b0e6bbfe7102196"
 os = "macos"
 
     [[HelFEM.download]]
-    sha256 = "e41de93386d628ec7ee038b42cab1c1a82297aded8be97848e57ee83ee43f15e"
-    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.3+0/HelFEM.v0.0.3.x86_64-apple-darwin.tar.gz"
+    sha256 = "6a22ac81c76777b8fc84ad26b60942a25e4d372668702e680176505b984f6685"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.x86_64-apple-darwin.tar.gz"
 [[HelFEM]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "2eae97afc7846314a546177a833978f42ec3fabe"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "92ead0b12b4807acac5339cec4fa64b4a6aca04e"
 libc = "glibc"
 os = "linux"
 
     [[HelFEM.download]]
-    sha256 = "b9f63a389f098f10cf0e3e01a38cef692c04bbe5a00876cea433a2c8517bf1b2"
-    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.3+0/HelFEM.v0.0.3.x86_64-linux-gnu-cxx11.tar.gz"
-[[HelFEM]]
-arch = "x86_64"
-git-tree-sha1 = "0a0daf60c89222974721241f363e860cbe66e9c5"
-os = "freebsd"
-
-    [[HelFEM.download]]
-    sha256 = "fc28a3bb8e92aff02916f940504a9f24a16f0aaaa29b77e168d8412fc7a81a46"
-    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.3+0/HelFEM.v0.0.3.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "99ce9452fc7836cf39a67685390be7ded4c938a4dae3e88e82a3b964ca71b5e8"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.x86_64-linux-gnu-cxx03.tar.gz"
 [[HelFEM]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "86c55b08f69e00d515e491cda787eb075830ae93"
+git-tree-sha1 = "310eeccc97e3ee630764d16484d57e9becadb273"
+libc = "glibc"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "a696ac5c9b74873d9f90664b7f7b91b54cef593e016156905b4689546f1db224"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.x86_64-linux-gnu-cxx11.tar.gz"
+[[HelFEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "caac822703035b23b8879398d2cd27868212154e"
+libc = "musl"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "8a3c7106a9db6a54cb45eb28ecd41b76aa6cbc86aa6cb8279b0adbd93b6f3d2b"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.x86_64-linux-musl-cxx03.tar.gz"
+[[HelFEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "fb6ff8ee640547b176019a56c4f078996a538095"
+libc = "musl"
+os = "linux"
+
+    [[HelFEM.download]]
+    sha256 = "23b3cbecdad5b191eba59926319d23ba111a34e3ef64122ef2e61a83b3e6099b"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.x86_64-linux-musl-cxx11.tar.gz"
+[[HelFEM]]
+arch = "x86_64"
+git-tree-sha1 = "6da885f498c3aac5a998e09033136d045d0e19d0"
+os = "freebsd"
+
+    [[HelFEM.download]]
+    sha256 = "188f6c470806a996272a1dfeb17e8d9512f85c5fd2a93fe771a0d9caeed34cc0"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.x86_64-unknown-freebsd.tar.gz"
+[[HelFEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "993fe7080d05c21b505d095c0fcef7bda15b4c3d"
 os = "windows"
 
     [[HelFEM.download]]
-    sha256 = "7b93f224c63789ac194acbcb6cc64d5dbf25d795aafb5ca9fe4a77c45b1347ea"
-    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.0.3+0/HelFEM.v0.0.3.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "c62a1b5f8d85a09e94dc0aa4596177c13de2f582d4920e1e245833de2670817d"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.x86_64-w64-mingw32-cxx03.tar.gz"
+[[HelFEM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "dd80be02b6aa487854f12b374c27288f6ed40b4f"
+os = "windows"
+
+    [[HelFEM.download]]
+    sha256 = "66346121d55718e567cb66a75d90243a0da35fb378f85d84e632994dafa04e26"
+    url = "https://github.com/JuliaBinaryWrappers/HelFEM_jll.jl/releases/download/HelFEM-v0.1.5+0/HelFEM.v0.1.5.x86_64-w64-mingw32-cxx11.tar.gz"
