@@ -1,6 +1,6 @@
 name = "HelFEM_jll"
 uuid = "584ea77b-75d0-51ad-9ad6-7fb559b95557"
-version = "0.1.5+0"
+version = "0.1.6+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -14,7 +14,7 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
 JLLWrappers = "1.2.0"
-julia = "1.5"
-armadillo_jll = "=9.850.1"
-OpenBLAS_jll = "=0.3.9"
-GSL_jll = "=2.6.0"
+julia = "1.6"
+armadillo_jll = "9.850.1"
+OpenBLAS_jll = "0.3.10"
+GSL_jll = "2.6.0"
